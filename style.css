@@ -1,0 +1,107 @@
+@import url(//fonts.googleapis.com/css?family=Bebas+Neue);
+@import url(//fonts.googleapis.com/css?family=Inter);
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+html{
+    overflow-x: hidden;
+}
+            
+h2{
+    margin-left: 35px;
+    margin-right:35px;
+    font-family: 'Bebas Neue', Helvetica, sans-serif;
+}
+h3{
+    font-family: 'Bebas Neue', Helvetica, sans-serif;
+    margin-left: 35px;
+    margin-right:35px;
+    font-size:24px;
+}
+h4{
+    margin-left: 35px;
+    margin-right:35px;
+    font-family: 'Bebas Neue', Helvetica, sans-serif;
+}
+h5{
+    margin-left: 35px;
+    margin-right:35px;
+    font-family: 'Bebas Neue', Helvetica, sans-serif;
+}
+h6{
+    margin-left: 35px;
+    margin-right:35px;
+    font-family: 'Bebas Neue', Helvetica, sans-serif;
+    font-size:16px;
+}
+p {
+    line-height:1.75;
+    margin-left: 35px;
+    margin-right:35px;
+}
+img{
+    margin-left:35px;
+    margin-right:35px;
+}
+            
+       
+h1{
+    font-family: 'Bebas Neue', Helvetica, sans-serif;
+    font-size:40px;
+    margin-left: 25px;
+    margin-right:25px;
+    color:#153146;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #153146;
+    font-family: 'Bebas Neue', Helvetica, sans-serif;
+    margin-left:0px;
+    margin-right:0px;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Bebas Neue', Helvetica, sans-serif;
+    margin-left:0px;
+    margin-right:0px;
+}
+
+.topnav a:hover {
+    background-color: #3d73b1;
+    color: black;
+    font-family: 'Bebas Neue', Helvetica, sans-serif;
+    margin-left:0px;
+    margin-right:0px;
+}
+
+body {
+    margin:0;
+    padding:0;
+    font-family: 'Inter', sans-serif;
+}
+
+.instructions{
+    background-color:#ebeff5;
+}
+
+.animation {
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
